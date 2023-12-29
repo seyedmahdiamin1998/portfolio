@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seyedmahdi Amin - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link
+    href="data:image/x-icon;base64,AAABAAEAEBACAAAAAACwAAAAFgAAACgAAAAQAAAAIAAAAAEAAQAAAAAAQAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAmUoVAD/8AAAgBAAAIBQAACPEAAAgBAAAL/QAACAEAAAv9AAAIAQAAC/0AAAgBAAALwQAACA8AAAsOAAAIDAAAD/gAADAAwAA3/sAAN/rAADcOwAA3/sAANALAADf+wAA0AsAAN/7AADQCwAA3/sAAND7AADfwwAA08cAAN/PAADAHwAA"
+    rel="icon" type="image/x-icon">
+  <!-- <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon"> -->
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Seyedmahdi Amin" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Seyedmahdi Amin">Seyedmahdi Amin</h1>
+
+          <p class="title">Data Analyst/Scientist</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:s.mahdiamin@gmail.com" class="contact-link">s.mahdiamin@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+989374693649" class="contact-link">+98 (937) 469-3649</a>
+            </div>
+
+          </li>
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Mashhad, IR</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/seyedmahdiamin1998" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/seyedmahdiamin/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>I'm a Data Analyst Scientist with a <u><b>Statistics degree</b></u> and more than <u><b>2
+                years</b></u> of experience.
+            I geek out over <u><b>Python</b></u>, <u><b>SQL</b></u>, <u><b>Data Visualization</b></u>, and <u><b>Machine
+                Learning</b></u> – they're my go-to tools for diving deep into data and uncovering fascinating insights.
+          </p>
+          <p>My journey in the world of data isn't just about numbers and algorithms; it's about telling stories through
+            data. I love transforming complex information into easy-to-understand visuals that help businesses make
+            smarter decisions. Whether it's spotting trends or building predictive models, I thrive on using my
+            statistical expertise to turn raw data into actionable strategies that drive real-world results.</p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programming</h4>
+
+                <p class="service-item-text">
+                  Using Python libraries to clean and preprocess large datasets for analysis and extract insights.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/database-search-icon.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Database</h4>
+
+                <p class="service-item-text">
+                  Extract and analyze data by querying databases and storing and managing data effectively in databases.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ai.png" alt="machine learning" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                <p class="service-item-text">
+                  Developing and deploying machine learning models for predictive analytics.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/project-analysis-icon.svg" alt="camera icon" width="45">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Visualization</h4>
+
+                <p class="service-item-text">
+                  Developing interactive and engaging data visualizations for effective storytelling.
+                </p>
+              </div>
+
+            </li>
+          </ul>
+
+        </section>
+
+
+
+        <!--
+          - technologies
+        -->
+
+        <section class="technologies">
+
+          <h3 class="h3">Technologies</h3>
+
+          <div class="technologies-list">
+
+            <div class="icon-box" style="width: 64px; height: 64px;">
+              <img src="./assets/images/tech/python.svg" alt="python">
+            </div>
+            <div class="icon-box" style="width: 64px; height: 64px;">
+              <img src="./assets/images/tech/javascript.svg" alt="javascript">
+            </div>
+            <div class="icon-box" style="width: 64px; height: 64px;">
+              <img src="./assets/images/tech/pandas.svg" alt="pandas">
+            </div>
+            <div class="icon-box" style="width: 64px; height: 64px;">
+              <img src="./assets/images/tech/numpy.svg" alt="numpy">
+            </div>
+            <div class="icon-box" style="width: 64px; height: 64px;">
+              <img src="./assets/images/tech/mysql.svg" alt="mysql">
+            </div>
+            <div class="icon-box" style="width: 64px; height: 64px;">
+              <img src="./assets/images/tech/postgresql.svg" alt="postgresql">
+            </div>
+            <div class="icon-box" style="width: 64px; height: 64px;">
+              <img src="./assets/images/tech/tensorflow.svg" style="width: 60px; height: 60px;" alt="tensorflow">
+            </div>
+            <div class="icon-box" style="width: 64px; height: 64px;">
+              <img src="./assets/images/tech/Scikit_learn.svg" style="width: 60px; height: 64px;" alt="Scikit_learn">
+            </div>
+            <div class="icon-box" style="width: 64px; height: 64px;">
+              <img src="./assets/images/tech/react.svg" style="width: 52px; height: 52px;" alt="react">
+            </div>
+            <div class="icon-box" style="width: 64px; height: 64px;">
+              <img src="./assets/images/tech/django.svg" alt="django">
+            </div>
+            <div class="icon-box" style="width: 64px; height: 64px;">
+              <img src="./assets/images/tech/tableau.svg" alt="tableau">
+            </div>
+            <div class="icon-box" style="width: 64px; height: 64px;">
+              <img src="./assets/images/tech/fastapi.svg" style="width: 48px; height: 48px;" alt="fastapi">
+            </div>
+
+          </div>
+
+
+        </section>
+
+
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <a href="https://forvest.io" target="_blank">
+                <h4 class="h4 timeline-item-title">Forvest.io</h4>
+              </a>
+
+              <span>2023 — present</span>
+
+              <p class="timeline-text">
+                ◉ Implemented React-based data analysis component, collaborating seamlessly with the engineering team to
+                visualize and present complex data sets effectively.<br>
+                ◉ Built the STT model to predict next week's market trends. Used a blend of Dynamic Time Warping and
+                Hierarchical Clustering to create features for accurate forecasting.<br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Aran</h4>
+
+              <span>2021 — 2022</span>
+
+              <p class="timeline-text">
+                ◉ Crafted SQL queries to extract data from databases and generated reports for stakeholders.<br>
+                ◉ Created dynamic Power BI dashboards, turning raw data into easy-to-understand visuals.<br>
+                ◉ Handled data preprocessing and constructed ETL pipelines to efficiently feed the database.<br>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- education -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelor of Science (B.S.), Computer Science</h4>
+
+              <span>2016 — 2021</span>
+
+              <p class="timeline-text">
+                <a href="https://en.um.ac.ir/" alt="ferdowsi university of mashhad" style="color:aliceblue">
+                  Ferdowsi University of Mashhad
+                </a>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>web scraping</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>application</button>
+            </li>
+
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web scraping">
+              <a href="https://github.com/seyedmahdiamin1998/DivarCrawler" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/portfolio/divar.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Divar.ir</h3>
+
+                <p class="project-category">web scraping</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web scraping">
+              <a href="https://github.com/seyedmahdiamin1998/catawiki" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/portfolio/catawiki.png" alt="catawiki" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">catawiki.com</h3>
+
+                <p class="project-category">Web scraping</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="application">
+              <a href="https://github.com/seyedmahdiamin1998/gold-calculator" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/portfolio/gold.png" alt="gold-calculator" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Gold price calculator</h3>
+
+                <p class="project-category">application</p>
+
+              </a>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
